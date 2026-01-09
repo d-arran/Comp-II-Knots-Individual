@@ -1,0 +1,12 @@
+\documentclass{article}
+\input{preamble}
+\begin{document}
+
+\begin{tikzpicture}[use Hobby shortcut]
+    \draw[ultra thick] (0:2) .. (10:2) .. (25:2);
+    \draw[ultra thick] (33:2) .. (180:2) .. (270:2) .. (0:2);
+    \draw[shift={(3.5,0)}, ultra thick] (0:2) .. (90:2) .. (180:2) .. (205:2);
+    \draw[shift={(3.5,0)}, ultra thick] (213:2) .. (270:2) .. (0:2);
+\end{tikzpicture}
+
+\end{document}
